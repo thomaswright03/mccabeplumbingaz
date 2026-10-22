@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>McCabe Plumbing & Water Treatment — Arizona's Trusted Plumbers</title>
+<meta name="description" content="Family-owned, full-service plumbing & water treatment serving Queen Creek, Mesa, Gilbert, Chandler & the East Valley for over 20 years. 24/7 emergency service." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+<!-- Preloader -->
+<div class="preloader" id="preloader">
+  <div class="preloader__drop">
+    <svg viewBox="0 0 100 130" aria-hidden="true">
+      <path d="M50 2 C50 2 92 55 92 88 A42 42 0 1 1 8 88 C8 55 50 2 50 2 Z"/>
+    </svg>
+    <span class="preloader__fill"></span>
+  </div>
+  <p class="preloader__text">McCabe Plumbing</p>
+</div>
+
+<!-- Custom cursor -->
+<div class="cursor" id="cursor"></div>
+<div class="cursor-dot" id="cursorDot"></div>
+
+<!-- Scroll progress -->
+<div class="scroll-progress" id="scrollProgress"></div>
+
+<!-- Top emergency bar -->
+<div class="topbar">
+  <div class="wrap topbar__inner">
+    <span class="topbar__live"><i></i>Live dispatch • 24/7 emergency response</span>
+    <a href="tel:+14802995203" class="topbar__phone">Call now: (480) 299-5203</a>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="header" id="header">
+  <div class="wrap header__inner">
+    <a href="#top" class="brand" data-magnetic>
+      <span class="brand__mark">
+        <svg viewBox="0 0 100 130" aria-hidden="true"><path d="M50 4 C50 4 90 54 90 86 A40 40 0 1 1 10 86 C10 54 50 4 50 4 Z"/></svg>
+      </span>
+      <span class="brand__text">McCabe<em>Plumbing & Water</em></span>
+    </a>
+    <nav class="nav" id="nav">
+      <a href="#services">Services</a>
+      <a href="#why">Why Us</a>
+      <a href="#process">Process</a>
+      <a href="#areas">Areas</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <a href="tel:+14802995203" class="btn btn--primary header__cta" data-magnetic>
+      <span>Get a Free Estimate</span>
+    </a>
+    <button class="burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<!-- Mobile menu -->
+<div class="mobilemenu" id="mobilemenu">
+  <a href="#services">Services</a>
+  <a href="#why">Why Us</a>
+  <a href="#process">Process</a>
+  <a href="#areas">Areas</a>
+  <a href="#reviews">Reviews</a>
+  <a href="#faq">FAQ</a>
+  <a href="tel:+14802995203" class="btn btn--primary">Call (480) 299-5203</a>
+</div>
+
+<main id="top">
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero__bg">
+    <span class="orb orb--1"></span>
+    <span class="orb orb--2"></span>
+    <span class="orb orb--3"></span>
+    <div class="grid-overlay"></div>
+  </div>
+  <div class="droplets" id="droplets"></div>
+
+  <div class="wrap hero__inner">
+    <div class="hero__content">
+      <span class="pill reveal" data-reveal><i class="pill__dot"></i>Family-owned in Arizona for 20+ years</span>
+      <h1 class="hero__title">
+        <span class="line" data-splitline>Plumbing done</span>
+        <span class="line" data-splitline>the <span class="grad">right way</span>.</span>
+      </h1>
+      <p class="hero__lead reveal" data-reveal>From a midnight burst pipe to whole-home water treatment, McCabe Plumbing keeps the East Valley flowing with honest work, fair prices, and craftsmanship built to last.</p>
+      <div class="hero__cta reveal" data-reveal>
+        <a href="tel:+14802995203" class="btn btn--primary btn--lg" data-magnetic><span>Call (480) 299-5203</span></a>
+        <a href="#services" class="btn btn--ghost btn--lg" data-magnetic><span>Explore services</span></a>
+      </div>
+      <div class="hero__trust reveal" data-reveal>
+        <div class="stars">★★★★★</div>
+        <span>Trusted by homeowners across Queen Creek, Mesa, Gilbert &amp; Chandler</span>
+      </div>
+    </div>
+
+    <div class="hero__card reveal" data-reveal>
+      <div class="gcard" data-tilt>
+        <div class="gcard__glow"></div>
+        <div class="gcard__row">
+          <span class="gcard__badge">24/7</span>
+          <div><strong>Emergency Response</strong><small>Burst pipes • slab leaks • sewer backups</small></div>
+        </div>
+        <div class="gcard__divider"></div>
+        <ul class="gcard__list">
+          <li data-check>Licensed, bonded &amp; insured</li>
+          <li data-check>Free estimates on non-emergency work</li>
+          <li data-check>Upfront, no-surprise pricing</li>
+          <li data-check>Residential &amp; commercial</li>
+        </ul>
+        <a href="#contact" class="btn btn--primary btn--block" data-magnetic><span>Book a visit</span></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero__wave" aria-hidden="true">
+    <svg viewBox="0 0 1440 140" preserveAspectRatio="none">
+      <path class="wave wave--back" d="M0 70 Q 180 20 360 70 T 720 70 T 1080 70 T 1440 70 V140 H0 Z"/>
+      <path class="wave wave--front" d="M0 90 Q 180 40 360 90 T 720 90 T 1080 90 T 1440 90 V140 H0 Z"/>
+    </svg>
+  </div>
+</section>
+
+<!-- STATS -->
+<section class="stats">
+  <div class="wrap stats__grid">
+    <div class="stat reveal" data-reveal><span class="stat__num" data-count="20" data-suffix="+"></span><span class="stat__label">Years in business</span></div>
+    <div class="stat reveal" data-reveal><span class="stat__num" data-count="15000" data-suffix="+"></span><span class="stat__label">Jobs completed</span></div>
+    <div class="stat reveal" data-reveal><span class="stat__num" data-count="24" data-suffix="/7"></span><span class="stat__label">Emergency service</span></div>
+    <div class="stat reveal" data-reveal><span class="stat__num" data-count="100" data-suffix="%"></span><span class="stat__label">Satisfaction focused</span></div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="section" id="services">
+  <div class="wrap">
+    <div class="section__head">
+      <span class="eyebrow reveal" data-reveal>What we do</span>
+      <h2 class="section__title reveal" data-reveal>Full-service plumbing &amp; water treatment</h2>
+      <p class="section__sub reveal" data-reveal>One trusted team for everything from a dripping faucet to a whole-home repipe and water filtration system.</p>
+    </div>
+
+    <div class="services">
+      <article class="service reveal" data-reveal data-tilt>
+        <div class="service__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5 21 21"/><path d="M10.5 7.8c-1.3 1.6-2.1 2.8-2.1 3.8a2.1 2.1 0 0 0 4.2 0c0-1-.8-2.2-2.1-3.8Z"/></svg></div>
+        <h3>Leak Detection</h3>
+        <p>Pinpoint slab leaks and hidden drips fast with non-invasive detection that protects your floors and foundation.</p>
+        <span class="service__arrow">→</span>
+      </article>
+      <article class="service reveal" data-reveal data-tilt>
+        <div class="service__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 1 1-9 9 7 7 0 1 1 7-7 5 5 0 1 1-5 5 3 3 0 1 1 3-3 1 1 0 1 1-1 1"/></svg></div>
+        <h3>Drain Cleaning</h3>
+        <p>Clear stubborn clogs and slow drains with camera inspection and hydro-jetting that gets to the root cause.</p>
+        <span class="service__arrow">→</span>
+      </article>
+      <article class="service reveal" data-reveal data-tilt>
+        <div class="service__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 3v2M15 3v2"/><rect x="5" y="5" width="14" height="16" rx="4"/><path d="M12 10c-1.5 1.5-2.3 2.8-2.3 3.9a2.3 2.3 0 0 0 4.6 0c0-1.1-.8-2.4-2.3-3.9Z"/></svg></div>
+        <h3>Water Heaters</h3>
+        <p>Repair, replacement, and tankless upgrades so you never run out of hot water when you need it most.</p>
+        <span class="service__arrow">→</span>
+      </article>
+      <article class="service reveal" data-reveal data-tilt>
+        <div class="service__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 9h7a3 3 0 0 1 3 3v7"/><path d="M3 6.5v5M12.5 19h5"/></svg></div>
+        <h3>Repiping</h3>
+        <p>Whole-home repipes that replace aging, corroded lines with durable modern piping built to last decades.</p>
+        <span class="service__arrow">→</span>
+      </article>
+      <article class="service reveal" data-reveal data-tilt>
+        <div class="service__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5c-1.7 2-2.8 3.5-2.8 4.9a2.8 2.8 0 0 0 5.6 0C14.8 6 13.7 4.5 12 2.5Z"/><rect x="7" y="12" width="10" height="9" rx="2"/><path d="M7 15.5h10M7 18.2h10"/></svg></div>
+        <h3>Water Treatment</h3>
+        <p>Softeners and reverse-osmosis systems that tame Arizona's hard water for cleaner, better-tasting water.</p>
+        <span class="service__arrow">→</span>
+      </article>
+      <article class="service reveal" data-reveal data-tilt>
+        <div class="service__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9h6"/><path d="M6 9V6h5a4 4 0 0 1 4 4v2"/><path d="M15 15c-.8 1-1.3 1.8-1.3 2.4a1.3 1.3 0 0 0 2.6 0c0-.6-.5-1.4-1.3-2.4Z"/></svg></div>
+        <h3>Fixtures &amp; Installs</h3>
+        <p>Faucets, toilets, disposals, and sinks installed cleanly and correctly the first time, guaranteed.</p>
+        <span class="service__arrow">→</span>
+      </article>
+      <article class="service service--accent reveal" data-reveal data-tilt>
+        <div class="service__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.5 22 20.5H2L12 3.5Z"/><path d="M12 10v4"/><circle cx="12" cy="17.2" r=".7" fill="currentColor" stroke="none"/></svg></div>
+        <h3>24/7 Emergency</h3>
+        <p>Burst pipes, sewer backups, and gas leaks don't wait. Neither do we. Call anytime, day or night.</p>
+        <span class="service__arrow">→</span>
+      </article>
+      <article class="service reveal" data-reveal data-tilt>
+        <div class="service__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 21V6l8-3v18"/><path d="M12 9h8v12"/><path d="M7 8.5h2M7 11.5h2M7 14.5h2M15 13h2M15 16h2"/><path d="M3 21h18"/></svg></div>
+        <h3>Commercial</h3>
+        <p>Dependable plumbing for businesses with responsive service that keeps your operation running.</p>
+        <span class="service__arrow">→</span>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- WHY -->
+<section class="section section--alt" id="why">
+  <div class="wrap why">
+    <div class="why__left">
+      <span class="eyebrow reveal" data-reveal>Why McCabe</span>
+      <h2 class="section__title reveal" data-reveal>The plumber your neighbors actually recommend</h2>
+      <p class="section__sub reveal" data-reveal>Two decades serving East Valley families taught us that trust is earned one honest job at a time.</p>
+      <ul class="why__list">
+        <li class="reveal" data-reveal><span class="why__check">✓</span><div><strong>Honest, upfront pricing</strong>Free estimates and clear quotes before we start. No surprises on the invoice.</div></li>
+        <li class="reveal" data-reveal><span class="why__check">✓</span><div><strong>Craftsmanship that lasts</strong>Quality-focused workmanship and long-lasting solutions, not quick patches.</div></li>
+        <li class="reveal" data-reveal><span class="why__check">✓</span><div><strong>Local &amp; family-owned</strong>Headquartered in Queen Creek, we treat your home like our own.</div></li>
+        <li class="reveal" data-reveal><span class="why__check">✓</span><div><strong>Always available</strong>Real 24/7 emergency response when the unexpected happens.</div></li>
+      </ul>
+    </div>
+    <div class="why__right reveal" data-reveal>
+      <div class="pipe-card" data-tilt>
+        <div class="pipe-card__glow"></div>
+        <svg class="pipe-anim" viewBox="0 0 300 300" aria-hidden="true">
+          <path class="pipe-track" d="M40 40 H220 Q260 40 260 80 V200 Q260 240 220 240 H80" />
+          <path class="pipe-flow" d="M40 40 H220 Q260 40 260 80 V200 Q260 240 220 240 H80" />
+          <circle class="pipe-node" cx="40" cy="40" r="8"/>
+          <circle class="pipe-node" cx="80" cy="240" r="8"/>
+        </svg>
+        <div class="pipe-card__caption"><strong>Clean work, every time</strong><span>Precision routing &amp; pressure-tested results</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section class="section" id="process">
+  <div class="wrap">
+    <div class="section__head">
+      <span class="eyebrow reveal" data-reveal>How it works</span>
+      <h2 class="section__title reveal" data-reveal>Simple, start to finish</h2>
+    </div>
+    <div class="timeline" id="timeline">
+      <div class="timeline__line"><span class="timeline__fill" id="timelineFill"></span></div>
+      <div class="step reveal" data-reveal><span class="step__num">01</span><h3>Call or book online</h3><p>Reach us anytime. We'll gather the details and schedule a visit that works for you.</p></div>
+      <div class="step reveal" data-reveal><span class="step__num">02</span><h3>Diagnose &amp; quote</h3><p>We find the real problem and give you a clear, upfront estimate before any work begins.</p></div>
+      <div class="step reveal" data-reveal><span class="step__num">03</span><h3>Expert repair</h3><p>Our licensed team fixes it right with quality parts and craftsmanship that lasts.</p></div>
+      <div class="step reveal" data-reveal><span class="step__num">04</span><h3>Test &amp; guarantee</h3><p>We pressure-test, clean up, and stand behind the work. Your satisfaction comes first.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- AREAS -->
+<section class="section section--alt" id="areas">
+  <div class="wrap section__head">
+    <span class="eyebrow reveal" data-reveal>Service area</span>
+    <h2 class="section__title reveal" data-reveal>Proudly serving the East Valley</h2>
+    <p class="section__sub reveal" data-reveal>Headquartered in Queen Creek, dispatching across the Phoenix East Valley.</p>
+  </div>
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__track">
+      <span>Queen Creek</span><span>•</span><span>Mesa</span><span>•</span><span>Gilbert</span><span>•</span><span>Chandler</span><span>•</span><span>Apache Junction</span><span>•</span><span>San Tan Valley</span><span>•</span>
+      <span>Queen Creek</span><span>•</span><span>Mesa</span><span>•</span><span>Gilbert</span><span>•</span><span>Chandler</span><span>•</span><span>Apache Junction</span><span>•</span><span>San Tan Valley</span><span>•</span>
+    </div>
+  </div>
+  <div class="marquee marquee--rev" aria-hidden="true">
+    <div class="marquee__track">
+      <span>Leak Detection</span><span>•</span><span>Drain Cleaning</span><span>•</span><span>Water Heaters</span><span>•</span><span>Repiping</span><span>•</span><span>Water Treatment</span><span>•</span><span>Emergency</span><span>•</span>
+      <span>Leak Detection</span><span>•</span><span>Drain Cleaning</span><span>•</span><span>Water Heaters</span><span>•</span><span>Repiping</span><span>•</span><span>Water Treatment</span><span>•</span><span>Emergency</span><span>•</span>
+    </div>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section class="section" id="reviews">
+  <div class="wrap">
+    <div class="section__head">
+      <span class="eyebrow reveal" data-reveal>Reviews</span>
+      <h2 class="section__title reveal" data-reveal>What homeowners say</h2>
+    </div>
+    <div class="reviews" id="reviews-track">
+      <figure class="review reveal" data-reveal data-tilt>
+        <div class="stars">★★★★★</div>
+        <blockquote>Showed up fast for a slab leak at night and had it fixed by morning. Honest, clean, and fairly priced. These are our plumbers for life.</blockquote>
+        <figcaption><span class="review__ava">R</span><div><strong>Rachel M.</strong><small>Queen Creek, AZ</small></div></figcaption>
+      </figure>
+      <figure class="review reveal" data-reveal data-tilt>
+        <div class="stars">★★★★★</div>
+        <blockquote>Installed a water softener and RO system. Explained every option, no pressure, and the water quality is night and day. Highly recommend.</blockquote>
+        <figcaption><span class="review__ava">D</span><div><strong>David T.</strong><small>Gilbert, AZ</small></div></figcaption>
+      </figure>
+      <figure class="review reveal" data-reveal data-tilt>
+        <div class="stars">★★★★★</div>
+        <blockquote>Repiped our whole house and it was seamless. Professional crew, great communication, and they left everything spotless. Worth every penny.</blockquote>
+        <figcaption><span class="review__ava">S</span><div><strong>Sofia L.</strong><small>Mesa, AZ</small></div></figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta" id="contact">
+  <div class="cta__bg"><span class="orb orb--1"></span><span class="orb orb--2"></span></div>
+  <div class="wrap cta__inner reveal" data-reveal>
+    <h2>Got a leak, clog, or no hot water?</h2>
+    <p>Call McCabe Plumbing now for fast, friendly, expert service across the East Valley.</p>
+    <div class="cta__buttons">
+      <a href="tel:+14802995203" class="btn btn--primary btn--lg" data-magnetic><span>Call (480) 299-5203</span></a>
+      <a href="tel:+14802995203" class="btn btn--light btn--lg" data-magnetic><span>Request free estimate</span></a>
+    </div>
+    <p class="cta__fine">24/7 emergency response • Licensed, bonded &amp; insured • Queen Creek, AZ</p>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="section section--alt" id="faq">
+  <div class="wrap faq">
+    <div class="section__head">
+      <span class="eyebrow reveal" data-reveal>FAQ</span>
+      <h2 class="section__title reveal" data-reveal>Good questions, clear answers</h2>
+    </div>
+    <div class="accordion">
+      <details class="acc reveal" data-reveal><summary>Do you offer 24/7 emergency service?<span class="acc__plus"></span></summary><div class="acc__body"><p>Yes. For burst pipes, slab leaks, sewer backups, or gas leaks, call (480) 299-5203 any time and a skilled plumber will respond promptly.</p></div></details>
+      <details class="acc reveal" data-reveal><summary>Are estimates really free?<span class="acc__plus"></span></summary><div class="acc__body"><p>We offer free estimates on all non-emergency work, so you know the cost before we begin. Call for a no-obligation quote.</p></div></details>
+      <details class="acc reveal" data-reveal><summary>What areas do you serve?<span class="acc__plus"></span></summary><div class="acc__body"><p>We're headquartered in Queen Creek and serve Mesa, Gilbert, Chandler, Apache Junction, San Tan Valley, and the surrounding East Valley.</p></div></details>
+      <details class="acc reveal" data-reveal><summary>Do you handle both homes and businesses?<span class="acc__plus"></span></summary><div class="acc__body"><p>Absolutely. We provide both residential and commercial plumbing with responsive service and trusted expertise.</p></div></details>
+      <details class="acc reveal" data-reveal><summary>Can you fix Arizona's hard water?<span class="acc__plus"></span></summary><div class="acc__body"><p>Yes. We install water softeners and reverse-osmosis systems to reduce hardness for cleaner, better-tasting water throughout your home.</p></div></details>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="wrap footer__grid">
+    <div class="footer__brand">
+      <a href="#top" class="brand">
+        <span class="brand__mark"><svg viewBox="0 0 100 130" aria-hidden="true"><path d="M50 4 C50 4 90 54 90 86 A40 40 0 1 1 10 86 C10 54 50 4 50 4 Z"/></svg></span>
+        <span class="brand__text">McCabe<em>Plumbing & Water</em></span>
+      </a>
+      <p>Family-owned, full-service plumbing &amp; water treatment serving the Arizona East Valley for over 20 years.</p>
+    </div>
+    <div class="footer__col"><h4>Services</h4><a href="#services">Leak Detection</a><a href="#services">Drain Cleaning</a><a href="#services">Water Heaters</a><a href="#services">Repiping</a><a href="#services">Water Treatment</a></div>
+    <div class="footer__col"><h4>Company</h4><a href="#why">Why Us</a><a href="#process">Process</a><a href="#areas">Service Areas</a><a href="#reviews">Reviews</a><a href="#faq">FAQ</a></div>
+    <div class="footer__col"><h4>Get in touch</h4><a href="tel:+14802995203">(480) 299-5203</a><a href="#contact">Free estimate</a><span>Queen Creek, Arizona</span><span>Open 24/7 for emergencies</span></div>
+  </div>
+  <div class="wrap footer__bottom">
+    <span>© <span id="year"></span> McCabe Plumbing &amp; Water Treatment, LLC</span>
+    <span class="footer__demo"><a href="admin/" style="color:inherit">Admin</a> · Concept redesign demo</span>
+  </div>
+</footer>
+
+<button class="totop" id="totop" aria-label="Back to top">↑</button>
+
+<script src="js/main.js"></script>
+</body>
+</html>
